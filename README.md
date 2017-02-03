@@ -17,6 +17,10 @@ Stretch programming goals:
 Number boxes change to the same color when they are next to one another in consequtive order
 
 
+Wireframe:
+https://github.com/Brian60657/slider_puzzle/blob/master/assets/wireframe.jpg
+
+
 Repository:
 https://github.com/Brian60657/slider_puzzle
 
