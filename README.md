@@ -17,13 +17,11 @@ The numbers will not be in order on start, slide the numbers up, down, left, and
 Number boxes change to the same color when they are next to one another in consequtive order
 
 
-**Wireframe:**
-https://github.com/Brian60657/slider_puzzle/blob/master/assets/wireframe.jpg
-
-
 **Repository:**
 https://github.com/Brian60657/slider_puzzle
 
 
 **User stories:**
 https://trello.com/b/H8tPJaYk/slider-puzzle
+
+![alt text](https://github.com/Brian60657/slider_puzzle/blob/master/assets/wireframe.jpg)
