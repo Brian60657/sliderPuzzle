@@ -17,6 +17,12 @@ The numbers will not be in order on start, slide the numbers up, down, left, and
 Number boxes change to the same color when they are next to one another in consequtive order
 
 
+**Technologies used:** <br>
+1. CSS <br>
+2. HTML <br>
+3. Javascript <br>
+4. jQuery <br>
+
 **Repository:**
 https://github.com/Brian60657/slider_puzzle
 
