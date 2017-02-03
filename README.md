@@ -24,5 +24,5 @@ https://github.com/Brian60657/slider_puzzle
 **User stories:**
 https://trello.com/b/H8tPJaYk/slider-puzzle
 
-**Wireframe:**
+**Wireframe:**</br>
 ![alt text](https://github.com/Brian60657/slider_puzzle/blob/master/assets/wireframe.jpg)
