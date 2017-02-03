@@ -1,4 +1,4 @@
-**Game name:** </br>
+**Game:** </br>
 Slider Puzzle
 
 
