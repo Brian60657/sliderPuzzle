@@ -10,7 +10,7 @@ The numbers will not be in order on start, slide the numbers up, down, left, and
 1.  Number of wins counted </br>
 2.  Timer runs so you can see how quickly you win </br>
 3.  Start button starts the game/timer </br>
-4.  Reset button resets the game/timer/wins </br>
+4.  Reset button resets the game/timer/wins
 
 
 **Stretch programming goals:** </br>
@@ -21,7 +21,8 @@ Number boxes change to the same color when they are next to one another in conse
 1. CSS <br>
 2. HTML <br>
 3. Javascript <br>
-4. jQuery <br>
+4. jQuery
+
 
 **Repository:**
 https://github.com/Brian60657/slider_puzzle
@@ -29,6 +30,7 @@ https://github.com/Brian60657/slider_puzzle
 
 **User stories:**
 https://trello.com/b/H8tPJaYk/slider-puzzle
+
 
 **Wireframe:**</br>
 ![alt text](https://github.com/Brian60657/slider_puzzle/blob/master/assets/wireframe.jpg)
