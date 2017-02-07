@@ -1,13 +1,18 @@
-// Slider Puzzle
+// used to let us know where the empty box is
+var emptyPositionRow = 1
+var emptyPositionColumn = 2
 
-var array = (['1', '2' , '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15','-'])
+// get position of the cell being selected
+function moveNumber(){
 
-function shuffleArray(array) {
-    for (var i = array.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
-    return array;
-  }
+}
+
+// move up
+
+// move down
+
+// move left
+
+// move right
+
+// update where the empty box is
