@@ -1,1 +1,26 @@
 /* Slider Puzzle */
+
+* {
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif
+}
+
+.box {
+  width: 75px;
+  height: 60px;
+  border: 1px solid yellow;
+  margin: 1px;
+  float: left;
+  font-size: 40px;
+  background: black;
+  color: white
+}
+
+#board {
+  width: 350px;
+  margin: 0 auto
+}
+
+body {
+    background-image: url("assets/background.jpg")
+}
