@@ -3,6 +3,7 @@ var emptyColumn = 3
 
 var puzzle = document.getElementById("puzzle")
 
+// move numbers around in table
 function replace(x) {
 	var row = x.parentElement.rowIndex
   var column = x.cellIndex
@@ -16,16 +17,30 @@ function replace(x) {
 			emptyRow = row
       emptyColumn = column
   	}
+//check for win option, i think this is done
+		var boxes = $('#puzzle')
+		boxes.eq(0)
+
+		var puzzleOrder = []
+		for (var i=0; i< boxes.length; i++){
+			puzzleOrder.push (boxes.eq(i).text())
+		}
+
+		if(puzzleOrder.join('') == "123456789101112131415")
+			alert("YOU WON!")
 }
 
-// check for win
-// var boxes = $('#puzzle')
-// boxes.eq(0)
+// check for winner, not complete
+// function determineWinner() {
 //
-// var puzzleOrder = []
-// for (var i=0; i< boxes.length; i++){
-// 	puzzleOrder.push (boxes.eq(i).text())
-// }
+// var check  = new Array(4)
+// 	check[0] = new Array (1, 2, 3, 4)
+// 	check[1] = new Array (5, 6, 7, 8)
+// 	check[2] = new Array (9, 10, 11, 12)
+// 	check[3] = new Array (13, 14, 15, 0)
 //
-// if(puzzleOrder.join('') == "123456789101112131415")
-// 	alert("YOU WON!")
+//   	for (i = 0; i < 4; i++){
+//     	if (rows[i] == check[i]){
+// 			winner = false
+//     		else
+//         alert("Congratulations! You've Won!")
