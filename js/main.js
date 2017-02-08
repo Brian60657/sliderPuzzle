@@ -22,7 +22,7 @@ function replace(x) {
 			boxes.eq(0)
 
 		var puzzleOrder = []
-			for (var i=0; i< boxes.length; i++){
+			for (var i=0; i< boxes.length; i++) {
 				puzzleOrder.push(parseInt(boxes.eq(i).text()))
 }
 //console.log(puzzleOrder)
@@ -30,3 +30,21 @@ function replace(x) {
 			alert("YOU WON!")
 }
 //adds timer to puzzle//////////////////////////////////////////////////////////
+var minutesCount = document.getElementById("minutes")
+var secondsCount = document.getElementById("seconds")
+var secondsTotal = 0
+	setInterval(setTime, 1000)
+
+		function setTime() {
+			++secondsTotal;
+				secondsCount.innerHTML = pad(secondsTotal%60)
+				minutesCount.innerHTML = pad(parseInt(secondsTotal/60))
+		}
+
+		function pad(value) {
+    	var valueString = value + ""
+      	if(valueString.length < 2) {
+        	return "0" + valueString
+				} else {
+          return valueString
+      	}}
