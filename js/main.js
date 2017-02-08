@@ -17,3 +17,15 @@ function replace(x) {
       emptyColumn = column
   	}
 }
+
+// check for win
+// var boxes = $('#puzzle')
+// boxes.eq(0)
+//
+// var puzzleOrder = []
+// for (var i=0; i< boxes.length; i++){
+// 	puzzleOrder.push (boxes.eq(i).text())
+// }
+//
+// if(puzzleOrder.join('') == "123456789101112131415")
+// 	alert("YOU WON!")
