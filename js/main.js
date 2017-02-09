@@ -4,48 +4,49 @@ var emptyColumn = 3
 var puzzle = document.getElementById("puzzle")
 
 function replace(x) {
-	var row = x.parentElement.rowIndex
+  var row = x.parentElement.rowIndex
   var column = x.cellIndex
 
-		if ((emptyColumn == column && Math.abs(emptyRow - row) == 1) || (emptyRow == row && Math.abs(emptyColumn - column) == 1)) {
-			var x2 = document.getElementById("puzzle").rows[emptyRow].cells[emptyColumn]
+  if ((emptyColumn == column && Math.abs(emptyRow - row) == 1) || (emptyRow == row && Math.abs(emptyColumn - column) == 1)) {
+    var x2 = document.getElementById("puzzle").rows[emptyRow].cells[emptyColumn]
 
-			x2.innerHTML = x.innerHTML
-      x.innerHTML = " "
+    x2.innerHTML = x.innerHTML
+    x.innerHTML = " "
 
-			emptyRow = row
-      emptyColumn = column
-  	}
+    emptyRow = row
+    emptyColumn = column
+  }
 
-//checks for win////////////////////////////////////////////////////////////////
-		var boxes = $('td')
-			boxes.eq(0)
+  //checks for win////////////////////////////////////////////////////////////////
+  var boxes = $('td')
+  boxes.eq(0)
 
-		var puzzleOrder = []
-			for (var i=0; i< boxes.length; i++) {
-				puzzleOrder.push(parseInt(boxes.eq(i).text()))
-}
+  var puzzleOrder = []
+  for (var i = 0; i < boxes.length; i++) {
+    puzzleOrder.push(parseInt(boxes.eq(i).text()))
+  }
 
-		if(puzzleOrder.join('') == "123456789101112131415Nan")
-			alert("YOU WON!")
+  if (puzzleOrder.join('') == "123456789101112131415NaN")
+    alert("YOU WON!")
 }
 
 //adds timer to puzzle//////////////////////////////////////////////////////////
 var minutesCount = document.getElementById("minutes")
 var secondsCount = document.getElementById("seconds")
 var secondsTotal = 0
-	setInterval(setTime, 1000)
+setInterval(setTime, 1000)
 
-		function setTime() {
-			++secondsTotal;
-				secondsCount.innerHTML = pad(secondsTotal%60)
-				minutesCount.innerHTML = pad(parseInt(secondsTotal/60))
-		}
+function setTime() {
+  ++secondsTotal;
+  secondsCount.innerHTML = pad(secondsTotal % 60)
+  minutesCount.innerHTML = pad(parseInt(secondsTotal / 60))
+}
 
-		function pad(value) {
-    	var valueString = value + ""
-      	if(valueString.length < 2) {
-        	return "0" + valueString
-				} else {
-          return valueString
-      	}}
+function pad(value) {
+  var valueString = value + ""
+  if (valueString.length < 2) {
+    return "0" + valueString
+  } else {
+    return valueString
+  }
+}
