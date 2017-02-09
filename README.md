@@ -3,7 +3,6 @@ Slider Puzzle
 
 
 **Goal of game:**
-
 *The numbers will not be in order on start
 
 *Click a number next to the empty box... it will move up, down, left, or right
@@ -12,7 +11,6 @@ Slider Puzzle
 
 
 **Board features:**
-
 *Buttons change color so you know what number you are selecting
 
 *Timer runs so you can see how quickly you win
@@ -23,14 +21,12 @@ Slider Puzzle
 
 
 **Installation instructions:**
-
 *Clone from the Github repository
 
 *Open in your web browser
 
 
 **Approach taken:**
-
 *Coded the 16 buttons using a table by replacing the empty box with clicked number
 
 *Coded timer to count up until the restart button is clicked
@@ -46,7 +42,6 @@ Slider Puzzle
 
 
 **Technologies used:**
-
 *CSS
 
 *HTML
