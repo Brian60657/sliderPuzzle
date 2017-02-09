@@ -9,21 +9,21 @@ Slider Puzzle
 
 
 **Board features:**<br>
-1. Buttons change color so you know what number you are selecting
-2. Timer runs so you can see how quickly you win
-3. Restart button restarts the game and timer
+1. Buttons change color so you know what number you are selecting<br>
+2. Timer runs so you can see how quickly you win<br>
+3. Restart button restarts the game and timer<br>
 4. Share with your friends on Facebook, Twitter, and linkedIn
 
 
 **Installation instructions:**<br>
-1. Clone from the Github repository
+1. Clone from the Github repository<br>
 2. Open in your web browser
 
 
 **Approach taken:**<br>
-1. Coded the 16 buttons using a table by replacing the empty box with clicked number
-2. Coded timer to count up until the restart button is clicked
-3. Coded restart button to refresh the page which resets the game and time
+1. Coded 16 buttons using a table by replacing the empty box with clicked number<br>
+2. Coded timer to count up until the restart button is clicked<br>
+3. Coded restart button to refresh the page which resets the game and time<br>
 4. Coded links so you can share the puzzle on various social media site
 
 
@@ -32,9 +32,9 @@ Slider Puzzle
 
 
 **Technologies used:**<br>
-1. CSS
-2. HTML
-3. Javascript
+1. CSS<br>
+2. HTML<br>
+3. Javascript<br>
 4. jQuery
 
 
