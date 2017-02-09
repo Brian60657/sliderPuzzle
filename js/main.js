@@ -1,4 +1,4 @@
-//gets numbers from HTML table and moves them to an empty cell(row/column)//////
+//gets number from HTML table and moves to an empty cell(row/column)
 var emptyRow = 3
 var emptyColumn = 3
 var puzzle = document.getElementById("puzzle")
@@ -17,7 +17,7 @@ function replace(x) {
     emptyColumn = column
   }
 
-  //checks for win////////////////////////////////////////////////////////////////
+  //checks for win///////////////////////////////////////////
   var boxes = $('td')
   boxes.eq(0)
 
@@ -30,7 +30,7 @@ function replace(x) {
     alert("YOU WON!")
 }
 
-//adds timer to puzzle//////////////////////////////////////////////////////////
+//adds timer to puzzle////////////////////////////////////////
 var minutesCount = document.getElementById("minutes")
 var secondsCount = document.getElementById("seconds")
 var secondsTotal = 0

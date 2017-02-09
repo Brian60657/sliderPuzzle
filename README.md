@@ -47,4 +47,4 @@ https://trello.com/b/H8tPJaYk/slider-puzzle
 
 
 **Wireframe:**<br>
-![alt text](https://github.com/Brian60657/slider_puzzle/blob/master/css/assets/wireframe.jpg)
+![alt text]assets/wireframe.jpg

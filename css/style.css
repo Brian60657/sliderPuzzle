@@ -1,44 +1,50 @@
 /* background image */
+
 body {
-    background-image: url("assets/background.jpg")
+  background-image: url("assets/background.jpg")
 }
 
+
 /* entire screen */
+
 * {
   text-align: center;
   font-family: Impact, sans-serif
 }
 
-/* number boxes */
-td {
- width: 75px;
- height: 60px;
- border: 2px solid yellow;
- margin: 2px;
- float: left;
- font-size: 40px;
- background: black;
- color: white
-}
-
-/* number boxes hover */
-td:hover {
-    background-color: deepskyblue;
-}
-
-/* restart button hover */
-#button:hover {
-    background-color: deepskyblue;
-}
 
 /* entire table */
+
 table {
   width: 350px;
   margin: 0 auto;
   padding-bottom: 15px
 }
 
+
+/* number boxes */
+
+td {
+  width: 75px;
+  height: 60px;
+  border: 2px solid yellow;
+  margin: 2px;
+  float: left;
+  font-size: 40px;
+  background: black;
+  color: white
+}
+
+
+/* number boxes hover */
+
+td:hover {
+  background-color: deepskyblue;
+}
+
+
 /* timer */
+
 label {
   width: 75px;
   height: 60px;
@@ -46,7 +52,9 @@ label {
   color: black
 }
 
+
 /* restart button */
+
 #button {
   width: 125px;
   height: 15;
@@ -56,7 +64,16 @@ label {
   border: 2px solid yellow
 }
 
-/* link */
+
+/* restart button hover */
+
+#button:hover {
+  background-color: deepskyblue;
+}
+
+
+/* more information link */
+
 a {
   color: yellow
 }
