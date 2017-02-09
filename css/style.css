@@ -1,12 +1,15 @@
+/* background image */
 body {
     background-image: url("assets/background.jpg")
 }
 
+/* entire screen */
 * {
   text-align: center;
   font-family: Impact, sans-serif
 }
 
+/* number boxes */
 td {
  width: 75px;
  height: 60px;
@@ -18,20 +21,24 @@ td {
  color: white
 }
 
+/* number boxes hover */
 td:hover {
     background-color: deepskyblue;
 }
 
+/* restart button hover */
 #button:hover {
     background-color: deepskyblue;
 }
 
+/* entire table */
 table {
   width: 350px;
   margin: 0 auto;
   padding-bottom: 15px
 }
 
+/* timer */
 label {
   width: 75px;
   height: 60px;
@@ -39,6 +46,7 @@ label {
   color: black
 }
 
+/* restart button */
 #button {
   width: 125px;
   height: 15;
@@ -48,6 +56,7 @@ label {
   border: 2px solid yellow
 }
 
+/* link */
 a {
   color: yellow
 }
