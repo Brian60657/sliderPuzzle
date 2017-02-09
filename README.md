@@ -3,8 +3,8 @@ Slider Puzzle
 
 
 **Goal of game:**<br>
-1. The numbers will not be in order on start
-2. Click a number next to the empty box... it will move up, down, left, or right
+1. The numbers will not be in order on start<br>
+2. Click a number next to the empty box... it will move up, down, left, or right<br>
 3. The winning number order is left to right from 1-15
 
 
