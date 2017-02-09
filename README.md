@@ -3,7 +3,9 @@ Slider Puzzle
 
 
 **Goal of game:** </br>
-The numbers will not be in order on start, slide the numbers up, down, left, and right using your mouse until they are in order from left to right 1-15
+1.  The numbers will not be in order on start
+2.  Slide the numbers up, down, left, and right using your mouse
+3.  The winning order is left to right from 1-15
 
 
 **Board features:** </br>
@@ -18,8 +20,12 @@ The numbers will not be in order on start, slide the numbers up, down, left, and
 2.  Open in your web browser
 
 
+**Approach taken:** </br>
+
+
+
 **Unsolved challenges:** </br>
-Boxes change to the same color when they are next to each other in consequtive order
+Boxes change to the same color when they are next to each other in consecutive order
 
 
 **Technologies used:** <br>
