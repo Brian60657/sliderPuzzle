@@ -25,10 +25,11 @@ function replace(x) {
 			for (var i=0; i< boxes.length; i++) {
 				puzzleOrder.push(parseInt(boxes.eq(i).text()))
 }
-//console.log(puzzleOrder)
+
 		if(puzzleOrder.join('') == "123456789101112131415Nan")
 			alert("YOU WON!")
 }
+
 //adds timer to puzzle//////////////////////////////////////////////////////////
 var minutesCount = document.getElementById("minutes")
 var secondsCount = document.getElementById("seconds")
@@ -48,4 +49,3 @@ var secondsTotal = 0
 				} else {
           return valueString
       	}}
-////////////////////////////////////////////////////////////////////////////////
