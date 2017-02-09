@@ -9,7 +9,7 @@ The numbers will not be in order on start, slide the numbers up, down, left, and
 **Board features:** </br>
 1.  Timer runs so you can see how quickly you win </br>
 2.  Buttons change color so you know what number you are selecting </br>
-3.  Restart button resstarts the game and timer </br>
+3.  Restart button restarts the game and timer </br>
 4.  Share with your friends on Facebook, Twitter, and linkedIn
 
 
