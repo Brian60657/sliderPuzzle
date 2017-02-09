@@ -18,6 +18,14 @@ td {
  color: white
 }
 
+td:hover {
+    background-color: deepskyblue;
+}
+
+#button:hover {
+    background-color: deepskyblue;
+}
+
 table {
   width: 350px;
   margin: 0 auto;
