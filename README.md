@@ -7,14 +7,19 @@ The numbers will not be in order on start, slide the numbers up, down, left, and
 
 
 **Board features:** </br>
-1.  Number of wins counted </br>
-2.  Timer runs so you can see how quickly you win </br>
-3.  Start button starts the game/timer </br>
-4.  Reset button resets the game/timer/wins
+1.  Timer runs so you can see how quickly you win </br>
+2.  Start button starts the game/timer </br>
+3.  Reset button resets the game and timer </br>
+4.  Share with your friends on Facebook, Twitter, and linkedIn
 
 
-**Stretch programming goals:** </br>
-Number boxes change to the same color when they are next to one another in consequtive order
+**Installation instructions:** </br>
+1.  Clone from the Github repository
+2.  Open in your web browser
+
+
+**Unsolved challenges:** </br>
+Boxes change to the same color when they are next to each other in consequtive order
 
 
 **Technologies used:** <br>
