@@ -10,9 +10,12 @@
 </head>
 
 <body>
+
+  <!--User text-->
   <h1>Slider Puzzle</h1>
   <p> Click a number next to the empty box moving up, down,<br> left, or right until the numbers are in order from 1-15</p>
 
+  <!--Puzzle Table-->
   <table id="puzzle">
     <tr>
       <td onclick="replace(this)">1</td>
@@ -43,18 +46,23 @@
     </tr>
   </table>
 
+  <!--Timer-->
   <label id="minutes">00</label> min. <label id="seconds">00</label> sec.
   <br>
   <br>
+
+  <!--Restart-->
   <input id="button" type="button" value="Restart" onClick="window.location.reload()">
   <br>
   <br>
   <br>
 
+  <!--More Info-->
   <a href="https://github.com/Brian60657/">More Information</a> on my Projects.
   <br>
   <br>
 
+  <!--Social Media buttons-->
   <div id="shareButtons">
     <a href="http://www.facebook.com/sharer.php?u=https://brian60657.github.io/slider_puzzle/" target="_blank">
       <img src="assets/facebook.png" </a>
