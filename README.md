@@ -1,5 +1,8 @@
 **Game:**<br>
-Slider Puzzle<br><br>
+Slider Puzzle<br>
+
+History:<br>
+Commonly referred to as the "15 puzzle", the puzzle was invented by Noyes Chapman, a postmaster in New York who is said to have shown friends as early as 1874.  Students in the American School for the Deaf started manufacturing the puzzle in 1879.  Chapman had applied for a patent in 1880 but that patent was rejected because it wasn't sufficiently different from the 1878 "Puzzle-Blocks" patent granted to Ernest Kinsey.  If you exchange the 14 and 15 pieces at the end of the puzzle it becomes unsolvable!<br><br>
 
 **Goal of game:**<br>
 
