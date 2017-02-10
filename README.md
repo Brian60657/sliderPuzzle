@@ -29,13 +29,13 @@ Slider Puzzle<br><br>
 
 **Approach taken:**<br>
 
-1. Coded 16 buttons using a table by replacing the empty box with clicked number<br>
+1. Coded 16 buttons first with a slide function but ended with a table layout<br>
 
-2. Coded timer to count up until the restart button is clicked<br>
+2. Coded layout runs center so it displays better on mobile, stuck with 4 colors<br>
 
-3. Coded restart button to refresh the page which resets the game and time<br>
+3. Coded restart button and timer UP, the button resets both the game and timer<br>
 
-4. Coded links so you can share the puzzle on various social media site<br><br>
+4. Coded links to view my other projects and share buttons to social media<br><br>
 
 **Unsolved challenges:**<br>
 
