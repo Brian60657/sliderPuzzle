@@ -18,7 +18,7 @@ function replace(x) {
   }
 
   //checks for win///////////////////////////////////////////
-  var boxes = $('td')
+  var boxes = $("td")
   boxes.eq(0)
 
   var puzzleOrder = []
@@ -26,7 +26,7 @@ function replace(x) {
     puzzleOrder.push(parseInt(boxes.eq(i).text()))
   }
 
-  if (puzzleOrder.join('') == "123456789101112131415NaN")
+  if (puzzleOrder.join("") == "123456789101112131415NaN")
     alert("YOU WON!")
 }
 
@@ -37,7 +37,7 @@ var secondsTotal = 0
 setInterval(setTime, 1000)
 
 function setTime() {
-  ++secondsTotal;
+  ++secondsTotal
   secondsCount.innerHTML = pad(secondsTotal % 60)
   minutesCount.innerHTML = pad(parseInt(secondsTotal / 60))
 }
@@ -50,3 +50,10 @@ function pad(value) {
     return valueString
   }
 }
+
+var clickSound = document.createElement("audio")
+clickSound.setAttribute("src", "click_one.wav")
+
+$("#puzzle").click(function() {
+  clickSound.play()
+})
