@@ -62,4 +62,5 @@ Slider Puzzle<br><br>
 <https://trello.com/b/H8tPJaYk/slider-puzzle><br><br>
 
 **Wireframe:**<br>
-![alt text]assets/wireframe.jpg<br><br>
+![alt text]assets/wireframe.jpg
+<br><br>
