@@ -51,6 +51,7 @@ function pad(value) {
   }
 }
 
+//adds sound to puzzle/////////////////////////////////////////
 var clickSound = document.createElement("audio")
 clickSound.setAttribute("src", "click_one.wav")
 
